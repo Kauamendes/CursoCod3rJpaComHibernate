@@ -9,6 +9,8 @@
 	<class>modelo.umpraum.Cliente</class>
 	<class>modelo.UmParaMuitos.ItemPedido</class>
     <class>modelo.UmParaMuitos.Pedido</class>
+    <class>modelo.muitospramuitos.Tio</class>
+    <class>modelo.muitospramuitos.Sobrinho</class>
 		
 		    <properties>
             <property name="hibernate.hbm2ddl.auto" value="update" />
