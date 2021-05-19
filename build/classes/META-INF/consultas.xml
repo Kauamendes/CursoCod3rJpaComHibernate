@@ -11,7 +11,7 @@
 	where f.nota > :nota
 		</query>
 	</named-query>
-
+	
 	<named-native-query name="obterMediaGeralDosFilmes"
 	result-set-mapping="NotaFilmeMap">
 		 <query>
