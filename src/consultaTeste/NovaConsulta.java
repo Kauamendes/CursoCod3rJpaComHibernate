@@ -10,8 +10,8 @@ public class NovaConsulta {
 
 	public static void main(String[] args) {
 		
-		Medico medico1 = new Medico("Dra.bruna ", 25, "clinica geral");
-		Paciente paciente1 = new Paciente("pedro", 19, new Date(),medico1 );
+		Medico medico1 = new Medico("Dra.Debora ", 25, "Nutricionista");
+		Paciente paciente1 = new Paciente("Maria", 19, new Date(),medico1 );
 		
 		
 		DAO<Paciente> dao = new DAO<>(Paciente.class);

@@ -23,6 +23,7 @@
      <class>modelo.heranca.tipo2.AlunoBolsista</class>
      <class>consulta.Medico</class>
      <class>consulta.Paciente</class>
+     
 		
 		    <properties>
             <property name="hibernate.hbm2ddl.auto" value="update" />
