@@ -11,8 +11,8 @@ public class NovaConsultaDAO {
 	public static void main(String[] args) {
 		
 
-	Medico medico2 = new Medico("Dr.Fabrizzy", 39, "Cardiologista");
-	Paciente paciente2 = new Paciente("Kleber", 20, new Date(),medico2);
+	Medico medico2 = new Medico("Dr.Erik", 39, "Infectologista");
+	Paciente paciente2 = new Paciente("Felipe", 25, new Date(),medico2);
 	
 	DAO<Paciente> dao = new DAO<>(Paciente.class);
 	DAO<Medico> daoM = new DAO<>(Medico.class);

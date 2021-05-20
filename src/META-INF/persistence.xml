@@ -23,6 +23,9 @@
      <class>modelo.heranca.tipo2.AlunoBolsista</class>
      <class>consulta.Medico</class>
      <class>consulta.Paciente</class>
+     <class>modelo.umpramuitos.Album</class>
+     <class>modelo.umpramuitos.Artista</class>
+     
      
 		
 		    <properties>
