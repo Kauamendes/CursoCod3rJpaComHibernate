@@ -9,18 +9,18 @@ public class TESTEALBUMNOVO {
 	public static void main(String[] args) {
 	
 		
-		Artista artista1 = new Artista("L7NNON" , "Nada e pra sempre");
-		Album album1 = new Album(artista1 ,"Hip Hop Hare",10);
+		Artista artista1 = new Artista("Xamã", "Era uma vez");
+		Album album1 = new Album(artista1, "O iluminado ", 10);
 		
 		DAO<Artista> daoA = new DAO<>(Artista.class);
 		DAO<Album> daoB = new DAO<>(Album.class);
-				
 		
-		daoA.PersistirFULL(artista1);
+				
 		daoB.PersistirFULL(album1);
+		daoA.PersistirFULL(artista1);
 		daoA.fechar();
 		daoB.fechar();
-
+		
 	}
 
 }

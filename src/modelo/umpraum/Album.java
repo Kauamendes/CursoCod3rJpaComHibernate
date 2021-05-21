@@ -23,7 +23,7 @@ public class Album {
 
 	@MapsId
 	@OneToOne(cascade = CascadeType.PERSIST,fetch = FetchType.LAZY)
-	@JoinColumn(name="artista")
+	@JoinColumn(name="id_artista")
 	private Artista artista;
 	
 	private String nome_album;

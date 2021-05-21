@@ -18,7 +18,7 @@ public class Artista {
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Long id;
 	
-	private String nome;
+	private String artista;
 	
 	private String musica;
 	
@@ -32,21 +32,21 @@ public class Artista {
 	}
 
 
-	public Artista(String nome, String musica) {
+	public Artista(String artista, String musica) {
 		super();
-		this.nome = nome;
+		this.artista = artista;
 		this.musica = musica;
 		
 	}
 
 
 	public String getNome() {
-		return nome;
+		return artista;
 	}
 
 
-	public void setNome(String nome) {
-		this.nome = nome;
+	public void setNome(String artista) {
+		this.artista = artista;
 	}
 
 
